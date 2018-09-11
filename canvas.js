@@ -44,3 +44,4 @@ function drawActualDiamond(){
     ctx.lineTo(370, 160);
     ctx.stroke();   
 }
+//test
