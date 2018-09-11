@@ -1,4 +1,5 @@
 function drawDiamond(){
+    // Outside of Square //
     var canvas = document.getElementById("canvas");
     var ctx = canvas.getContext("2d");
     ctx.clearRect(0, 0, canvas.width, canvas.height,);
@@ -44,4 +45,3 @@ function drawActualDiamond(){
     ctx.lineTo(370, 160);
     ctx.stroke();   
 }
-//test
