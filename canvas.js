@@ -15,7 +15,7 @@ function drawDiamond(){
 function drawActualDiamond(){
     var canvas = document.getElementById("canvas");
     var ctx = canvas.getContext("2d");  
-    ctx.clearRect(0, 0, canvas.width, canvas.height,); 
+    ctx.clearRect(0, 0, canvas.width, canvas.height); 
     ctx.beginPath();
     // Outside of Diamond //
     ctx.moveTo(250, 500);
