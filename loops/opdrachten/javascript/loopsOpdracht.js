@@ -28,8 +28,10 @@ let array = [
     2,4,8,9,12,13
 ];
 let resultaat = 0;
+    //Maakt i aan en zorgt ervoor dat hij niet vaker kan loopen dan de array length.
 for (let i=0; i < array.length; i++) {
     console.log(array[i])
+    //Resultaat + Oude resultaat + De volgende in de array
     resultaat = resultaat + array[i];
 } 
 console.log(resultaat);
